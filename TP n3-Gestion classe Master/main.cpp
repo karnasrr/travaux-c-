@@ -40,13 +40,29 @@ int main()
             system("cls");
             cout <<endl << "AFFICHAGE DES ECOLES" <<endl <<endl;
 
-            //afficheTabEcole(tabEcole, nbrEcole);
+            afficheTabEcole(tabEcole, nbrEcole);
 
             //system("pause");
             //system("cls");
             goto menu1;
             break;
+         
         case 3:
+                system("cls");
+                cout <<endl << "AJOUT DE CLASSE" <<endl <<endl;
+
+                nbrClass= ajouterClasse(tabClass, nbrClass, saisirClasse(nbrClass));
+
+                //system("pause");
+                //system("cls");
+                    
+                cout <<endl << "nbrClass=" << nbrClass<<endl <<endl;
+                cout <<endl << "FIN AJOUT DE CLASSE" <<endl <<endl;
+                goto menu;
+                break;
+                
+                
+        case 4:
             system("cls");
             cout <<endl << "AJOUT D'ETUDIANT" <<endl <<endl;
 
@@ -56,7 +72,8 @@ int main()
             //system("cls");
             goto menu1;
             break;
-        case 4:
+                
+        case 5:
             system("cls");
             cout <<endl << "AFFICHAGE D'ETUDIANT PAR CLASSE" <<endl <<endl;
 
@@ -68,7 +85,8 @@ int main()
             //system("cls");
             goto menu1;
             break;
-        case 5:
+                
+        case 6:
             system("cls");
             cout <<endl << "AFFICHAGE CLASSE PAR ORDRE CROISSANT DU NOMBRE D'ETUDIANT" <<endl <<endl;
 
@@ -79,7 +97,8 @@ int main()
             //system("cls");
             goto menu1;
             break;
-        case 6:
+                
+        case 7:
             //system("cls");
             //return 0;
             //goto menu;
