@@ -45,6 +45,28 @@ ECOLE saisirEcole(int a){
     return b;
 }
 
+void saisirVille(int nbrVille)
+{
+    VILLE b;
+    b.id = a+1;
+    cout <<endl <<"saisissez la Ville de l'école" << endl;
+    cin >> b.libelle;
+    //cin.ignore();
+    //getline(cin, b.libelle);
+    cout <<endl <<"quel est l'effectif de la ville" << endl;
+    cin >> b.effectif;
+
+    cout <<endl <<endl <<"id :" <<b.id <<endl <<"libelle :" <<b.libelle <<endl <<"effectif :" <<b.effectif <<endl;
+
+    cout <<endl <<"quel est le departement de la ville" << endl;
+    cin >> b.departement;
+
+    cout <<endl <<endl <<"id :" <<b.id <<endl <<"libelle :" <<b.libelle <<endl <<"effectif :" <<b.effectif <<endl;
+
+}
+
+
+
 
 CLASSE saisirClasse(int a){
     CLASSE b;
