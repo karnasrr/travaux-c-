@@ -6,11 +6,21 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXFileReference section */
+		CD01755E2F8B7B5B00787D52 /* projet.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = projet.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		CD0175572F8B7B3500787D52 = {
 			isa = PBXGroup;
 			children = (
+				CD01755E2F8B7B5B00787D52 /* projet.xcodeproj */,
 			);
+			sourceTree = "<group>";
+		};
+		CD01755F2F8B7B5B00787D52 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -33,6 +43,12 @@
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CD01755F2F8B7B5B00787D52 /* Products */;
+					ProjectRef = CD01755E2F8B7B5B00787D52 /* projet.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 			);
